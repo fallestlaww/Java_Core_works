@@ -9,7 +9,7 @@ public class Methods{
 		this.b = b;
 	}
 	
-	public static void exceptions() throws IllegalAccessException, MyException {
+	public static void exceptions() throws MyException {
 		if((a < 0) && ( b<0 )) {
 			String message = "Illegal Argument Exception";
 			throw new MyException(message);
@@ -27,22 +27,22 @@ public class Methods{
 		}
 	}
 	
-	public int plus() throws IllegalAccessException, MyException {
+	public int plus() throws MyException {
 		Methods.exceptions();
 		return a+b;
 	}
 	
-	public int minus() throws IllegalAccessException, MyException {
+	public int minus() throws MyException {
 		Methods.exceptions();
 		return a-b;
 	}
 	
-	public int multiply() throws IllegalAccessException, MyException {
+	public int multiply() throws MyException {
 		Methods.exceptions();
 		return a*b;
 	}
 	
-	public int devide() throws IllegalAccessException, MyException {
+	public int devide() throws MyException {
 		Methods.exceptions();
 		return a/b;
 	}

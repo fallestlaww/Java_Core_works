@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) throws IllegalAccessException, MyException {
+	public static void main(String[] args) throws MyException {
 		Scanner scan = new Scanner(System.in);
 		
 		int a;
