@@ -1,0 +1,1 @@
+[name ---> Nice to meet you!, age ---> You look older, salary ---> What a hight salary!]
